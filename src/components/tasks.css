@@ -1,0 +1,115 @@
+.inputtext {
+  margin-top: 4px;
+  vertical-align: baseline;
+}
+.card-body {
+  text-align: center;
+  display: block;
+}
+.row {
+  width: 100%;
+  display: block;
+  justify-content: center;
+
+  margin: 5px;
+}
+.btn {
+  padding: 10px 30px;
+  font-size: large;
+  border-radius: 5px;
+  background-color: rgb(57, 255, 50);
+}
+.input {
+  width: 300px;
+  font-size: large;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.col-3 {
+  width: 15vw;
+  display: inline-block;
+  border-radius: 1vw;
+  padding: 5px;
+}
+.col-6 {
+  width: 60vw;
+  border-radius: 1vw;
+  padding: 5px;
+  display: inline-block;
+}
+
+.close {
+  font-weight: bold;
+  color: rgba(210, 105, 30, 0.527);
+  background-color: rgba(0, 238, 255, 0.308);
+  font-size: large;
+  border-radius: 5px;
+  padding: 10px;
+  margin: auto;
+  width: 40px;
+  margin-left: 1px;
+  display: inline-block;
+}
+.close:hover {
+  color: red;
+}
+.alert,
+.alerts {
+  background-color: rgba(0, 238, 255, 0.308);
+  width: 260px;
+  font-size: large;
+  text-align: left;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px;
+  margin: auto;
+}
+.alerts {
+  background-color: rgba(94, 255, 0, 0.308);
+  text-decoration: line-through;
+  font-style: italic;
+}
+@media only screen and (max-width: 500px) {
+  .col-3 {
+    width: 100vw;
+  }
+  .alert,
+  .alerts {
+    width: 70vw;
+    margin: 0px;
+    display: inline-block;
+  }
+  .close {
+    width: 10vw;
+    display: inline-block;
+  }
+  .col-6 {
+    width: 100vw;
+  }
+
+  #taskinput {
+    width: 60vw;
+    display: inline-block;
+  }
+  #mview6 {
+    width: 60vw;
+    display: inline-block;
+  }
+  #mview3 {
+    width: 30vw;
+    display: inline-block;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .col-3 {
+    width: 150px;
+  }
+  .col-6 {
+    width: 400px;
+  }
+}
+.hide {
+  display: none;
+  background-color: rgb(50, 88, 255);
+}
